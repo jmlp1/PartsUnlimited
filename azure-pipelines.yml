@@ -35,8 +35,7 @@
  - stage: Deploy
    jobs:
    - job: Deploy
-     pool:
-         vmImage: 'windows-2019'
+     pool: default         
      steps:
      - task: DownloadBuildArtifacts@0
        inputs:
