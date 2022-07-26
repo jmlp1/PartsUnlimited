@@ -46,7 +46,7 @@
      - task: AzureRmWebAppDeployment@4
        inputs:
          ConnectionType: 'AzureRM'
-         azureSubscription: 'Azure subscription 1(7c953ca0-54f1-4708-94c4-f3f93358482c)'
+         azureSubscription: 'Azure subscription 1(*****************)'
          appType: 'webApp'
          WebAppName: 'partsunlimited32117'
          packageForLinux: '$(System.ArtifactsDirectory)/drop/*.zip'
